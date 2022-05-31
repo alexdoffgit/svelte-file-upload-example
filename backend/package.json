@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "rebuild": "npm run build && npm run start",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "@fastify/multipart": "^6.0.0",
+    "@fastify/static": "^5.0.2",
+    "fastify": "^3.29.0",
+    "node-json-db": "^1.5.0"
+  }
+}

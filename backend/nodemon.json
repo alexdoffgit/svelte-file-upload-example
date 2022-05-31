@@ -1,0 +1,6 @@
+{
+    "ext": "ts",
+    "ignore": ["node_modules", "dist"],
+    "watch": ["**/*.ts"],
+    "exec": "npm run rebuild"
+}

@@ -1,0 +1,5 @@
+dist/
+storage/
+db/
+node_modules/
+env.ts
